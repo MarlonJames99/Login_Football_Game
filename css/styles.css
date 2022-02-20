@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-font: 'Noto Sans', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--main-font);
+}
+
+main p {
+    color: #77ffc0;
+    font-weight: 800;
+    font-size: 2vw;
+}
+
+main img {
+    width: 30vw;
+}
+
+.left-side {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-side {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.login-box h1 {
+    color: #00ff88;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.login-form input::placeholder {
+    color: #f0ffff94;
+}
+
+.login-form label {
+    color: #f0ffffde;
+    margin-top: 5px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background-color: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+@media only screen and (max-width: 950px) {
+    .login-box {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+    main p {
+        display: none;
+    }
+    .left-side {
+        width: 100%;
+        height: auto;
+    }
+    .left-side img {
+        width: 70vw;
+    }
+    .right-side {
+        width: 100%;
+        height: auto;
+    }
+}
