@@ -1,2 +1,1 @@
-# pagina_de_login
-Página de login com tema dark
+# Página de login para game de futebol.
