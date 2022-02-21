@@ -65,7 +65,7 @@ main img {
     padding: 25px 35px;
     background-color: var(--box-bg-color);
     border-radius: 20px;
-    box-shadow: 0px 10px 30px var(--main-color);
+    box-shadow: 0px 0px 20px var(--main-color);
 }
 
 .login-box h1 {
@@ -86,7 +86,7 @@ main img {
     gap: 5px;
 }
 
-.login-form input {
+.user-data {
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -95,19 +95,24 @@ main img {
     background-color: #514869;
     color: #f0ffffde;
     font-size: 12pt;
-    box-shadow: 0px 10px 40px var(--box-sdw-color);
+    box-shadow: 0px 10px 20px var(--box-sdw-color);
     outline: none;
     box-sizing: border-box;
 }
 
-.login-form input::placeholder {
+.user-data:focus {
+    border: 1px solid var(--main-color);
+    outline: none;
+}
+
+.user-data::placeholder {
     color: var(--terciary-tx-color);
 }
 
-.lgn-btn {
+#lgn-btn {
     width: 100%;
     padding: 16px 0px;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 15px;
     border: none;
     border-radius: 8px;
@@ -119,6 +124,15 @@ main img {
     background-color: var(--main-color);
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+#lgn-btn:hover {
+    box-shadow: 0px 0px 10px var(--main-color);
+}
+
+#lgn-btn:focus {
+    background-color: var(--terciary-tx-color);
+    box-shadow: none;
 }
 
 .forgot-pass {
@@ -138,7 +152,7 @@ main img {
     border-top: 1px solid #f0ffff2d;
 }
 
-.reg-btn {
+#reg-link {
     color: var(--main-color);
     text-decoration: none;
 }

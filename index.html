@@ -21,13 +21,13 @@
         <section class="right-side">
             <div class="login-box">
                 <h1>Login</h1>
-                <div class="login-form">
-                <input type="text" name="usuario" placeholder="Usuário">
-                <input type="password" name="senha" placeholder="Senha">
-                </div>
-                <button type="submit" class="lgn-btn">Entrar</button>
+                <form method="get" action="#" class="login-form">
+                    <input type="text" name="usuario" class="user-data" placeholder="Usuário" required>
+                    <input type="password" name="senha" class="user-data" placeholder="Senha" required>
+                    <button type="submit" id="lgn-btn">Entrar</button>
+                </form>
                 <a href="#" class="forgot-pass">Esqueceu a senha?</a>
-                <p>Não tem uma conta?<a href="#" class="reg-btn"> Cadastre-se!</a></p>
+                <p>Não tem uma conta?<a href="#" id="reg-link"> Cadastre-se!</a></p>
             </div>
         </section>
     </main>
