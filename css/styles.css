@@ -75,12 +75,6 @@ main img {
     margin: 0;
     margin-bottom: 15px;
     text-transform: uppercase;
-    display: inline-block;
-}
-
-#github-link {
-    width: 20px;
-    height: 20px;
 }
 
 .login-form {
