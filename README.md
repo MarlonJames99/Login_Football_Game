@@ -7,8 +7,10 @@ Desenvolvi esta página de login pensando em um game de futebol na web, nela o u
 Nesta tela o usuário também teria as opções de "Esqueci minha senha" e "Cadastrar-se" a sua disposição.
 
 ## Tecnologias:
-* HTML5
-* CSS3
+<div style="display: inline_block">
+<img align="center" alt="James-HTML" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+<img align="center" alt="James-CSS" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
 
 ## Outros aspectos
 A página foi desenvolvida tendo uma atenção especial no que diz respeito a semântica aplicada na estrutura HTML da mesma. 
