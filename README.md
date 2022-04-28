@@ -19,6 +19,7 @@ In addition, I made some media queries to ensure that the page will adapt respon
 The animated image is from https://storyset.com/
 
 ## Next step:
+> It's missing the favicon image. <br><br>
 > The next step I have planned for this page are improvements regarding accessibility, as it is very important that it can be accessed by anyone and it is our duty as devs to ensure that this happens correctly! <br><br>
 > I'm also going to develop the "forgot pass" and "sign up" pages as I don't want to let these links just for aesthetic purpose.<br><br>
 > I'll translate the application to english, it means, the title, headings, classes' name, etc.
