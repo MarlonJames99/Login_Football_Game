@@ -1,23 +1,24 @@
-# Página de Login
+# Football Game's Login Page
 ## Preview:
 ![Preview PdL](https://user-images.githubusercontent.com/97669160/163235244-661af509-27da-46b3-b497-82bd905e127c.PNG)
 
-## Projeto:
-Desenvolvi esta página de login pensando em um game de futebol na web, nela o usuário teria que ingressar um usuário e uma senha (previamente cadastrados), e em seguida, ao apertar o botão de login, seria redirecionado para a página inicial deste hipotético game.
-Nesta tela o usuário também teria as opções de "Esqueci minha senha" e "Cadastrar-se" a sua disposição.
+## Project:
+I developed this login page thinking about a football game on the web, in which the user would have to enter a username and password (previously registered), and then, when pressing the login button, he would be redirected to the homepage of this hypothetical game.
+On this screen, the user also have the options "forgot password" and "sign up" available.
 
-## Tecnologias:
+## Tecnologies:
 <div style="display: inline_block">
 <img align="center" alt="James-HTML" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 <img align="center" alt="James-CSS" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
 
-## Outros aspectos
-A página foi desenvolvida tendo uma atenção especial no que diz respeito a semântica aplicada na estrutura HTML da mesma. 
-Além disso, fiz alguns media queries para garantir que a página irá se adequar responsivamente as diferentes telas e dispositivos que utilizarem a mesma.
+## Other aspects:
+The page was developed with special attention to the semantics applied to its HTML structure.
+In addition, I made some media queries to ensure that the page will adapt responsively to different screens and devices.
 
-A imagem animada utilizada na página foi extraída do https://storyset.com/
+The animated image is from https://storyset.com/
 
-## Próximo passo:
-> O próximo passo que tenho planejado para esta página são melhorias que dizem respeito a acessibilidade, pois é importantíssimo que a mesma possa atender a todos os públicos e é nosso dever como devs garantir que isso ocorra corretamente! <br>
-> Traduzir HTML e .readme do projeto para inglês.
+## Next step:
+> The next step I have planned for this page are improvements regarding accessibility, as it is very important that it can be accessed by anyone and it is our duty as devs to ensure that this happens correctly! <br><br>
+> I'm also going to develop the "forgot pass" and "sign up" pages as I don't want to let these links just for aesthetic purpose.<br><br>
+> I'll translate the application to english, it means, the title, headings, classes' name, etc.
