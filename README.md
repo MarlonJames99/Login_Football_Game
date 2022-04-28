@@ -20,3 +20,4 @@ A imagem animada utilizada na página foi extraída do https://storyset.com/
 
 ## Próximo passo:
 > O próximo passo que tenho planejado para esta página são melhorias que dizem respeito a acessibilidade, pois é importantíssimo que a mesma possa atender a todos os públicos e é nosso dever como devs garantir que isso ocorra corretamente!
+> Traduzir HTML e .readme do projeto para inglês.
