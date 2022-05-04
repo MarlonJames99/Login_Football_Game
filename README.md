@@ -1,6 +1,6 @@
 # Football Game's Login Page
 ## Preview:
-![Preview PdL](https://user-images.githubusercontent.com/97669160/163235244-661af509-27da-46b3-b497-82bd905e127c.PNG)
+![lppreview](https://user-images.githubusercontent.com/97669160/166627653-e065fce8-8b9e-4961-aeaf-d6fca2b6fe25.PNG)
 
 ## Project:
 I developed this login page thinking about a football game on the web, in which the user would have to enter a username and password (previously registered), and then, when pressing the login button, he would be redirected to the homepage of this hypothetical game.
